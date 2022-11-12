@@ -7,7 +7,7 @@
 //
 // Notes:
 // * Use a variable set to either true or false
- what = true;
+ let what = true;
 // * Use an if..else block to determine which message to display
 fn message() -> str {
   if what = true {
