@@ -7,8 +7,18 @@
 //
 // Notes:
 // * Use a variable set to either true or false
-bool what = true;
+ what = true;
 // * Use an if..else block to determine which message to display
+fn message() -> str {
+  if what = true {
+    return "hello";
+  }
+  else {
+    return "goodbye";
+  }
+}
 // * Use the println macro to display messages to the terminal
 
-fn main() {}
+fn main() {
+  println!("{:?}", message());
+}
