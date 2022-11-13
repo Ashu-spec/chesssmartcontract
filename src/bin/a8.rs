@@ -26,14 +26,23 @@ fn print_fl_oz (drink: Drink){
   println!("oz: {:?}", drink.fl_oz);
 }
 fn main() {
+
   let sweet = Drink {
     fla: Fla::Sweet,
     fl_oz: 6.0,
   };
   print_fl_oz(sweet);
+
   let tangy = Drink {
     fla: Fla::Tangy,
     fl_oz: 10.0,
   };
   print_fl_oz(tangy);
+
+  let bland = Drink {
+    fla: Fla::Blend,
+    fl_oz: 8.0,
+  };
+  print_fl_oz(bland);
+
 }
