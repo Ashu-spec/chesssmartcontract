@@ -10,4 +10,9 @@
 // * Implement functionality on the box struct to create a new box
 // * Implement functionality on the box struct to print the characteristics
 
+struct ShippingBox {
+  dimensions: i32,
+  weight: i32,
+  color: String,
+}
 fn main() {}
